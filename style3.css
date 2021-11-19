@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* .navbar{
+    background-color: black;
+} */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #30475e;
+    color: white;
+    padding: 13px 0;
+    
+}
+
+.logo h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.logo h1 span{
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.logo p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+
+}
+
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 2rem;
+    transition: .3s all ease-in-out;
+}
+
+.main-nav ul li a:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+
+nav .sign-in-up button{
+    background-image: linear-gradient(to right, #76b852 0%, #8DC26F  51%, #76b852  100%);
+    font-size: 18px;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+.sign-in-up .cart{
+    margin-left: 30px;
+    background-image: linear-gradient(to right, #0cebeb 0%, #20e3b2  51%, #0cebeb  100%);
+    }
+
+    .cart-btn a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .login a{
+        color: white;
+    }
+    
+    .register a{
+        color: white;
+    }
+
+.popup-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.popup-container .popup{
+    background-color: #f0f0f0;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px 25px 30px 25px;
+
+}
+
+.popup-container .popup h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #30475e;
+}
+
+.popup-container .popup h2 button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+    font-weight: 550;
+    color: #797775;
+}
+
+.popup-container .popup input{
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #30475e;
+    border-radius: 0;
+    font-weight: 550;
+    font-size: 14px;
+    padding: 5px 0;
+    outline: none;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container .popup .login-btn, .popup-container .register .register-btn{
+    font-weight: 550;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: orange;
+    padding: .7rem 2rem;
+    border: none;
+    outline: none;
+
+}
+
+
+.popup-container .register{
+    background-color: #edeef7;
+}
+
+.popup-container .register h2{
+    color: #fa9579;
+}
+
+.popup-container .register input{
+    border-bottom-color: #fa9579;
+}
+
+.popup-container .register .register-btn{
+    background-color: #fa9579;
+}
+
+

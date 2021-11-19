@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.payment-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 95%;
+    /* border: 2px solid red; */
+    display: flex;
+
+}
+
+.address-container{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 6rem;
+}
+
+.address-container .detailes-section {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.address-container .detailes-section h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    font-family: 'montserrat', sans-serif;
+}
+
+.address-container .detailes-section label{
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 1rem;
+    
+}
+
+.address-container .detailes-section input{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    font-family: 'montserrat', sans-serif;
+    
+}
+
+.address-container .home-section{
+    margin-bottom: .5rem;
+    display: flex;
+    margin-left: 1.5rem;
+    flex-direction: row;
+}
+
+.address-container .home-section .home-right-section{
+    margin-left: 1rem;
+}
+
+.address-container .home-section .home-right-section input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 240px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.address-container .home-section .home-left-section input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 240px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.address-container .address-section{
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.address-container .address-section label{
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 1rem;
+    
+}
+
+.address-container .address-section input{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'montserrat', sans-serif;
+    
+}
+
+
+.payment-container{
+    display: flex;
+    margin-top: 2.5rem;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 8rem;
+}
+
+.payment-container .holder-name {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.payment-container .or{
+    text-align: center;
+    margin-bottom: .8rem;
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+.payment-container .or::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 250px;
+    left: 23%;
+    bottom: 29%;
+    border-radius: 50px;
+    transform: translateX(-50%);
+    background: #7aacac;
+    
+
+}
+
+.payment-container .or::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 250px;
+    right: -25%;
+    bottom: 29%;
+    border-radius: 50px;
+    transform: translateX(-50%);
+    background: #7aacac;
+    
+
+}
+
+.payment-methods{
+    display: flex;
+    
+}
+
+.payment-methods .g-pay{
+    cursor: pointer;
+}
+
+.payment-methods .ph-pay{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.payment-methods .paytm{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.payment-container .holder-name h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    font-family: 'montserrat', sans-serif;
+}
+
+.payment-container .holder-name label{
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 1rem;
+    
+}
+
+.payment-container .holder-name input{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'montserrat', sans-serif;
+    
+}
+
+.payment-container .card-number {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.payment-container .card-number label{
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 1rem;
+    
+}
+
+.payment-container .card-number input{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'montserrat', sans-serif;
+    
+}
+
+.payment-container .expiry-detailes{
+    margin-bottom: .5rem;
+    display: flex;
+    margin-left: 1.5rem;
+    flex-direction: row;
+}
+
+.payment-container .expiry-detailes .expiry-month{
+    margin-right: 1rem;
+}
+
+.payment-container .expiry-detailes .expiry-month label{
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 1rem;
+
+}
+
+.payment-container .expiry-detailes .expiry-month input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 240px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.payment-container .expiry-detailes .expiry-year input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 240px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.payment-container .expiry-detailes .expiry-year label{
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 1rem;
+
+}
+
+.payment-container .cvv-number {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.payment-container .cvv-number label{
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 1rem;
+    
+}
+
+.payment-container .cvv-number input{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'montserrat', sans-serif;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: .7rem 3rem;
+    margin-bottom: 1.6rem;
+    font-size: 17px;
+    border: 2px solid rgb(67, 205, 230);
+    font-family: 'montserrat', sans-serif;
+    cursor: pointer;
+}
+
+
+.button-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-1{
+    border: none;
+    outline: none;
+    padding: .7rem 3rem;
+    margin-bottom: 1.6rem;
+    font-size: 17px;
+    background-color: cyan;
+    font-family: 'montserrat', sans-serif;
+    cursor: pointer;
+}
